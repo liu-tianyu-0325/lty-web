@@ -25,10 +25,10 @@ export default function Login() {
     }
     alert('该用户未注册')
   };
-  return (
+   return (
     <div className="loginbox ">
 
-       <Form
+      <Form
         name="normal_login"
         className="login-form"
         initialValues={{ remember: true }}
