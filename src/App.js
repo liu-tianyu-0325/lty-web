@@ -5,7 +5,7 @@ import Login from './pages/login/index.tsx';
 import Register from './pages/register/index.tsx';
 import { Col, Row } from 'antd';
 import Logo from './components/logo/logo.tsx';
-import {NavLink,useRoutes,Routes,Route,Navigate} from 'react-router-dom'
+import { NavLink, useRoutes, Routes, Route, Navigate } from 'react-router-dom'
 import routes from './routes'
 
 function App() {
@@ -23,11 +23,12 @@ function App() {
         <Col span={8} ><Register /></Col>
       </Row> */}
       <Row justify="center" align="middle">
-        <Col span={8} >{element}</Col>
+        {/* <Col span={6} >{element}</Col> */}
+        {element}
       </Row>
-      <NavLink  to="/login">Login</NavLink>
+      <NavLink to="/login">Login</NavLink>
       <NavLink to="/register">Register</NavLink>
-      
+
 
     </div>
 
